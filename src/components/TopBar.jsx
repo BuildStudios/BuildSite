@@ -35,7 +35,7 @@ function TopBar() {
                     </Container>
                 </Navbar>
             </div>
-            <div>
+            <div className='contentDiv'>
                 <Switch>
                     <Route path="/home">
                         <Home />
