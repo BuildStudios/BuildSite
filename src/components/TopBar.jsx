@@ -1,6 +1,5 @@
 import React from 'react'
 import '../scss/TopBar.scss'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Logo from './../img/BuildStudios.png'
 import { Navbar, Container, Nav } from 'react-bootstrap'
@@ -15,6 +14,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Products from './pages/Products'
+import HeroJumper from './pages/products/HeroJumper';
 
 function TopBar() {
     return (
@@ -48,6 +48,10 @@ function TopBar() {
                     </Route>
                     <Route path="/products">
                         <Products />
+                    </Route>
+
+                    <Route path="/herojumper">
+                        <HeroJumper />
                     </Route>
                 </Switch>
             </div>

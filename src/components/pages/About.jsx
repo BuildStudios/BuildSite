@@ -22,7 +22,7 @@ function About() {
                 <li>More Testers</li>
             </ul>
 
-            <blockquote><i>If you want to contact with us for work in BuildStudios, go to Contact Page</i></blockquote>
+            <blockquote>If you want to contact with us for work in BuildStudios, go to Contact Page</blockquote>
         </p>
         </div>
     )
