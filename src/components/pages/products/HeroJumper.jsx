@@ -18,9 +18,7 @@ function HeroJumper() {
 
             <img className='game-screenshot' src={GameScreenshot} alt='game-screenshot'></img>
 
-                <ul>
-                    <li>Engine used for the game: Unreal Engine 4.27<img className='mini-text-image' src={GameEngineImage} alt='game-engine-img'></img></li>
-                </ul>
+            <blockquote>Engine used for the game: Unreal Engine 4.27<img className='mini-text-image' src={GameEngineImage} alt='game-engine-img'></img></blockquote>
         </div>
     )
 }
