@@ -5,6 +5,8 @@ import SteamIcon from '../../../img/steam.png'
 import GameScreenshot from '../../../img/herojumper-screenshot.png'
 import GameEngineImage from '../../../img/ue4.png'
 
+import Button from 'bootstrap'
+
 function HeroJumper() {
     return (
         <div>
@@ -12,7 +14,7 @@ function HeroJumper() {
 
             <p>Survive in a world with only hexagons. Build your own house, weapons and collect resources to survive. Explore the darkness of one hexagon.</p>
 
-            <button>Steam<img className='mini-text-image' src={SteamIcon} alt='steam-icon'></img></button>
+            <Button>Steam<img className='mini-text-image' src={SteamIcon} alt='steam-icon'></img></Button>
 
             <h3>Screenshot</h3>
 
